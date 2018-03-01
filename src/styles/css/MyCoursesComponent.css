@@ -1,0 +1,51 @@
+.myCourseList {
+  float: right;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .myCourseList h1 {
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid lightgray; }
+
+.head {
+  padding-bottom: 16px;
+  text-align: center; }
+
+.cardExterior {
+  padding: 5px; }
+
+.myCardInterior {
+  font-family: Source Sans Pro;
+  padding: 7px;
+  overflow: hidden;
+  width: 390px;
+  min-width: 250px;
+  height: 70px;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  box-shadow: 1px 1px 2px 0px #EFEFEF; }
+  .myCardInterior:hover {
+    cursor: pointer;
+    background-color: #ff93b9; }
+
+.cardTitle {
+  font-family: Oswald;
+  font-weight: 550;
+  width: 100%;
+  font-size: 15px;
+  padding-bottom: 5px; }
+
+.cardLeft {
+  font-size: 12px;
+  float: left;
+  width: 45%; }
+
+.cardRight {
+  font-size: 11.5px;
+  float: right;
+  width: 45%; }
+
+/*# sourceMappingURL=MyCoursesComponent.css.map */

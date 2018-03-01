@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Source+Sans+Pro');
+
+.courseSearch{
+  float:left;
+h1{
+  padding:0;
+  margin:0;
+  border-bottom: 1px solid lightgray;
+}
+}
+.courseList{
+  padding-top: 15px;
+  width: 840px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+.cardExterior{
+  padding:5px;
+}
+.cardInterior{
+  font-family: Source Sans Pro;
+  padding:7px;
+  overflow: scroll;
+  width:390px;
+  min-width: 250px;
+  height:70px;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  box-shadow: 1px 1px 2px 0px #EFEFEF;
+  &:hover{
+    cursor: pointer;
+    background-color: #E5F9FF;
+  }
+}
+.cardTitle{
+  font-family: Oswald;
+  font-weight: 550;
+  width:100%;
+  font-size:15px;
+  padding-bottom:5px;
+}
+
+.cardLeft{
+  font-size: 12px;
+  float:left;
+  width:45%;
+}
+.cardRight{
+  font-size: 11.5px;
+  float:right;
+  width:45%;
+}
+.ais-Hits__root{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
