@@ -10,7 +10,7 @@ h1{
 }
 .courseList{
   padding-top: 15px;
-  width: 840px;
+  width: 880px;
   display:flex;
   flex-direction: row;
   flex-wrap:wrap;
@@ -23,9 +23,8 @@ h1{
   font-family: Source Sans Pro;
   padding:7px;
   overflow: scroll;
-  width:390px;
-  min-width: 250px;
-  height:70px;
+  width:400px;
+  height:80px;
   border: 1px solid lightgray;
   border-radius: 2px;
   box-shadow: 1px 1px 2px 0px #EFEFEF;
