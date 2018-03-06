@@ -1,6 +1,6 @@
 .myCourseList {
   float: right;
-  width: 400px;
+  width: 440px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -15,7 +15,7 @@
   text-align: center; }
 
 .cardExterior {
-  padding: 5px; }
+  padding-bottom: 5px; }
 
 .myCardInterior {
   font-family: Source Sans Pro;
