@@ -20,17 +20,16 @@
 }
 .myCardInterior{
   font-family: Source Sans Pro;
-  padding:7px;
-  overflow: hidden;
-  width:390px;
-  min-width: 250px;
-  height:70px;
+  padding:10px;
+  overflow: hide;
+  width:400px;
+  height:90px;
   border: 1px solid lightgray;
   border-radius: 2px;
   box-shadow: 1px 1px 2px 0px #EFEFEF;
   &:hover{
     cursor: pointer;
-    background-color: #ff93b9;
+    background-color: #E5F9FF;
   }
 }
 .cardTitle{
